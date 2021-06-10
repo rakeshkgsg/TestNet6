@@ -1,0 +1,10 @@
+﻿@page "/blazor"
+@using TestApp.Web
+
+<app>
+    <component type="typeof(App)" render-mode="ServerPrerendered" />
+</app>
+
+@section scripts {
+    <script src="~/_framework/blazor.server.js"></script>
+}
